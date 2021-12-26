@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project source="2.7.1" version="1.0">
+<<<<<<< Updated upstream
   This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
 
   <lib desc="#Wiring" name="0"/>
+=======
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0">
+    <tool name="Splitter">
+      <a name="fanout" val="1"/>
+      <a name="incoming" val="4"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+    </tool>
+    <tool name="Pin">
+      <a name="facing" val="north"/>
+    </tool>
+    <tool name="Probe">
+      <a name="radix" val="16"/>
+    </tool>
+    <tool name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Sel"/>
+    </tool>
+    <tool name="Clock">
+      <a name="facing" val="north"/>
+    </tool>
+    <tool name="Constant">
+      <a name="width" val="8"/>
+      <a name="value" val="0x0"/>
+    </tool>
+  </lib>
+>>>>>>> Stashed changes
   <lib desc="#Gates" name="1"/>
   <lib desc="#Plexers" name="2"/>
   <lib desc="#Arithmetic" name="3"/>
@@ -94,6 +124,7 @@
       <circ-port height="10" pin="160,50" width="10" x="125" y="45"/>
       <circ-port height="10" pin="190,50" width="10" x="135" y="45"/>
       <circ-port height="10" pin="220,50" width="10" x="145" y="45"/>
+<<<<<<< Updated upstream
       <circ-port height="10" pin="250,50" width="10" x="155" y="45"/>
       <circ-port height="10" pin="290,50" width="10" x="85" y="265"/>
       <circ-port height="10" pin="310,50" width="10" x="95" y="265"/>
@@ -128,19 +159,58 @@
       <circ-port height="8" pin="950,50" width="8" x="186" y="86"/>
       <circ-port height="8" pin="970,50" width="8" x="186" y="76"/>
       <circ-port height="8" pin="160,350" width="8" x="56" y="166"/>
+=======
+      <circ-port height="10" pin="280,50" width="10" x="155" y="45"/>
+      <circ-port height="10" pin="310,50" width="10" x="85" y="265"/>
+      <circ-port height="10" pin="330,50" width="10" x="95" y="265"/>
+      <circ-port height="10" pin="350,50" width="10" x="105" y="265"/>
+      <circ-port height="10" pin="370,50" width="10" x="115" y="265"/>
+      <circ-port height="10" pin="390,50" width="10" x="125" y="265"/>
+      <circ-port height="10" pin="410,50" width="10" x="135" y="265"/>
+      <circ-port height="10" pin="430,50" width="10" x="145" y="265"/>
+      <circ-port height="10" pin="450,50" width="10" x="155" y="265"/>
+      <circ-port height="8" pin="490,50" width="8" x="56" y="146"/>
+      <circ-port height="8" pin="510,50" width="8" x="56" y="136"/>
+      <circ-port height="8" pin="530,50" width="8" x="56" y="126"/>
+      <circ-port height="8" pin="550,50" width="8" x="56" y="116"/>
+      <circ-port height="8" pin="570,50" width="8" x="56" y="106"/>
+      <circ-port height="8" pin="590,50" width="8" x="56" y="96"/>
+      <circ-port height="8" pin="610,50" width="8" x="56" y="86"/>
+      <circ-port height="8" pin="630,50" width="8" x="56" y="76"/>
+      <circ-port height="8" pin="670,50" width="8" x="186" y="236"/>
+      <circ-port height="8" pin="690,50" width="8" x="186" y="226"/>
+      <circ-port height="8" pin="710,50" width="8" x="186" y="216"/>
+      <circ-port height="8" pin="730,50" width="8" x="186" y="206"/>
+      <circ-port height="8" pin="750,50" width="8" x="186" y="196"/>
+      <circ-port height="8" pin="770,50" width="8" x="186" y="186"/>
+      <circ-port height="8" pin="790,50" width="8" x="186" y="176"/>
+      <circ-port height="8" pin="810,50" width="8" x="186" y="166"/>
+      <circ-port height="8" pin="850,50" width="8" x="186" y="146"/>
+      <circ-port height="8" pin="870,50" width="8" x="186" y="136"/>
+      <circ-port height="8" pin="890,50" width="8" x="186" y="126"/>
+      <circ-port height="8" pin="910,50" width="8" x="186" y="116"/>
+      <circ-port height="8" pin="930,50" width="8" x="186" y="106"/>
+      <circ-port height="8" pin="950,50" width="8" x="186" y="96"/>
+      <circ-port height="8" pin="970,50" width="8" x="186" y="86"/>
+      <circ-port height="8" pin="990,50" width="8" x="186" y="76"/>
+      <circ-port height="8" pin="160,480" width="8" x="56" y="166"/>
+>>>>>>> Stashed changes
       <circ-anchor facing="east" height="6" width="6" x="187" y="47"/>
     </appear>
-    <wire from="(380,290)" to="(440,290)"/>
-    <wire from="(850,50)" to="(850,60)"/>
-    <wire from="(390,390)" to="(440,390)"/>
-    <wire from="(250,230)" to="(370,230)"/>
-    <wire from="(290,610)" to="(290,620)"/>
-    <wire from="(130,650)" to="(370,650)"/>
-    <wire from="(300,260)" to="(540,260)"/>
-    <wire from="(690,430)" to="(690,580)"/>
-    <wire from="(300,550)" to="(340,550)"/>
-    <wire from="(690,50)" to="(690,70)"/>
+    <wire from="(690,50)" to="(690,60)"/>
+    <wire from="(290,330)" to="(290,590)"/>
+    <wire from="(900,100)" to="(950,100)"/>
+    <wire from="(910,110)" to="(910,120)"/>
+    <wire from="(310,470)" to="(360,470)"/>
+    <wire from="(260,430)" to="(260,630)"/>
+    <wire from="(890,90)" to="(890,120)"/>
+    <wire from="(250,640)" to="(360,640)"/>
+    <wire from="(900,100)" to="(900,120)"/>
+    <wire from="(530,610)" to="(530,630)"/>
+    <wire from="(250,250)" to="(350,250)"/>
+    <wire from="(210,220)" to="(630,220)"/>
     <wire from="(100,50)" to="(100,660)"/>
+<<<<<<< Updated upstream
     <wire from="(440,140)" to="(470,140)"/>
     <wire from="(860,80)" to="(890,80)"/>
     <wire from="(530,560)" to="(600,560)"/>
@@ -169,10 +239,43 @@
     <wire from="(360,410)" to="(360,420)"/>
     <wire from="(360,490)" to="(360,500)"/>
     <wire from="(360,570)" to="(360,580)"/>
+=======
+    <wire from="(630,50)" to="(630,220)"/>
+    <wire from="(570,120)" to="(590,120)"/>
+    <wire from="(560,510)" to="(580,510)"/>
+    <wire from="(880,80)" to="(880,120)"/>
+    <wire from="(640,510)" to="(660,510)"/>
+    <wire from="(930,50)" to="(930,90)"/>
+    <wire from="(700,80)" to="(730,80)"/>
+    <wire from="(280,150)" to="(300,150)"/>
+    <wire from="(440,310)" to="(460,310)"/>
+    <wire from="(550,270)" to="(550,560)"/>
+    <wire from="(670,300)" to="(740,300)"/>
+    <wire from="(400,440)" to="(410,440)"/>
+    <wire from="(860,60)" to="(860,120)"/>
+    <wire from="(680,310)" to="(680,430)"/>
+    <wire from="(870,500)" to="(870,620)"/>
+    <wire from="(180,450)" to="(250,450)"/>
+    <wire from="(490,390)" to="(490,580)"/>
+    <wire from="(770,50)" to="(770,100)"/>
+    <wire from="(540,540)" to="(540,590)"/>
+    <wire from="(710,430)" to="(720,430)"/>
+    <wire from="(440,310)" to="(440,430)"/>
+    <wire from="(870,70)" to="(870,120)"/>
+    <wire from="(640,440)" to="(650,440)"/>
+    <wire from="(410,380)" to="(460,380)"/>
+    <wire from="(850,50)" to="(850,120)"/>
+    <wire from="(710,270)" to="(770,270)"/>
+    <wire from="(310,120)" to="(310,130)"/>
+    <wire from="(380,270)" to="(380,280)"/>
+    <wire from="(640,290)" to="(740,290)"/>
+>>>>>>> Stashed changes
     <wire from="(370,50)" to="(370,130)"/>
-    <wire from="(330,170)" to="(330,250)"/>
-    <wire from="(210,100)" to="(210,120)"/>
+    <wire from="(410,490)" to="(410,570)"/>
+    <wire from="(450,50)" to="(450,130)"/>
+    <wire from="(210,260)" to="(210,280)"/>
     <wire from="(130,50)" to="(130,650)"/>
+<<<<<<< Updated upstream
     <wire from="(850,210)" to="(870,210)"/>
     <wire from="(470,580)" to="(690,580)"/>
     <wire from="(540,300)" to="(560,300)"/>
@@ -234,10 +337,74 @@
     <wire from="(290,120)" to="(290,130)"/>
     <wire from="(360,270)" to="(360,280)"/>
     <wire from="(620,290)" to="(720,290)"/>
+=======
+    <wire from="(420,400)" to="(460,400)"/>
+    <wire from="(870,70)" to="(890,70)"/>
+    <wire from="(510,330)" to="(600,330)"/>
+    <wire from="(530,50)" to="(530,160)"/>
+    <wire from="(830,260)" to="(830,680)"/>
+    <wire from="(870,500)" to="(1090,500)"/>
+    <wire from="(630,220)" to="(660,220)"/>
+    <wire from="(650,390)" to="(740,390)"/>
+    <wire from="(400,570)" to="(410,570)"/>
+    <wire from="(920,120)" to="(990,120)"/>
+    <wire from="(210,380)" to="(220,380)"/>
+    <wire from="(450,320)" to="(450,510)"/>
+    <wire from="(310,470)" to="(310,590)"/>
+    <wire from="(770,220)" to="(780,220)"/>
+    <wire from="(690,320)" to="(690,500)"/>
+    <wire from="(130,650)" to="(390,650)"/>
+    <wire from="(730,110)" to="(730,120)"/>
+    <wire from="(320,370)" to="(320,440)"/>
+    <wire from="(620,480)" to="(620,490)"/>
+    <wire from="(360,570)" to="(360,640)"/>
+    <wire from="(510,330)" to="(510,590)"/>
+    <wire from="(720,100)" to="(770,100)"/>
+    <wire from="(640,500)" to="(690,500)"/>
+    <wire from="(380,560)" to="(380,570)"/>
+    <wire from="(560,370)" to="(560,440)"/>
+    <wire from="(710,160)" to="(770,160)"/>
+    <wire from="(380,480)" to="(380,490)"/>
+    <wire from="(640,430)" to="(680,430)"/>
+    <wire from="(910,50)" to="(910,80)"/>
+    <wire from="(710,90)" to="(710,120)"/>
+    <wire from="(270,620)" to="(310,620)"/>
+    <wire from="(230,250)" to="(230,280)"/>
+    <wire from="(890,140)" to="(890,220)"/>
+    <wire from="(400,430)" to="(440,430)"/>
+    <wire from="(720,100)" to="(720,120)"/>
+    <wire from="(420,370)" to="(460,370)"/>
+    <wire from="(560,260)" to="(560,300)"/>
+    <wire from="(700,80)" to="(700,120)"/>
+    <wire from="(750,50)" to="(750,90)"/>
+    <wire from="(560,370)" to="(580,370)"/>
+    <wire from="(400,360)" to="(430,360)"/>
+    <wire from="(700,350)" to="(720,350)"/>
+    <wire from="(1090,500)" to="(1090,620)"/>
+    <wire from="(320,370)" to="(340,370)"/>
+    <wire from="(360,570)" to="(380,570)"/>
+    <wire from="(640,360)" to="(670,360)"/>
+    <wire from="(320,260)" to="(320,300)"/>
+    <wire from="(680,60)" to="(680,120)"/>
+    <wire from="(520,400)" to="(600,400)"/>
+    <wire from="(690,70)" to="(690,120)"/>
+    <wire from="(210,100)" to="(210,220)"/>
+    <wire from="(610,50)" to="(610,230)"/>
+    <wire from="(260,360)" to="(260,430)"/>
+    <wire from="(270,370)" to="(270,440)"/>
+    <wire from="(630,220)" to="(630,230)"/>
+    <wire from="(990,50)" to="(990,120)"/>
+    <wire from="(250,250)" to="(250,450)"/>
+    <wire from="(670,50)" to="(670,120)"/>
+    <wire from="(210,360)" to="(260,360)"/>
+    <wire from="(590,50)" to="(590,120)"/>
+    <wire from="(380,270)" to="(550,270)"/>
+    <wire from="(890,90)" to="(930,90)"/>
+>>>>>>> Stashed changes
     <wire from="(350,50)" to="(350,130)"/>
-    <wire from="(390,490)" to="(390,570)"/>
     <wire from="(430,50)" to="(430,130)"/>
     <wire from="(220,50)" to="(220,70)"/>
+<<<<<<< Updated upstream
     <wire from="(400,400)" to="(440,400)"/>
     <wire from="(850,70)" to="(870,70)"/>
     <wire from="(490,330)" to="(580,330)"/>
@@ -336,27 +503,126 @@
     <wire from="(630,380)" to="(720,380)"/>
     <wire from="(950,50)" to="(950,110)"/>
     <wire from="(550,50)" to="(550,110)"/>
+=======
+    <wire from="(390,620)" to="(390,650)"/>
+    <wire from="(710,140)" to="(710,160)"/>
+    <wire from="(510,50)" to="(510,150)"/>
+    <wire from="(690,70)" to="(710,70)"/>
+    <wire from="(870,680)" to="(1090,680)"/>
+    <wire from="(320,550)" to="(320,590)"/>
+    <wire from="(620,560)" to="(620,660)"/>
+    <wire from="(230,250)" to="(250,250)"/>
+    <wire from="(450,320)" to="(460,320)"/>
+    <wire from="(530,470)" to="(530,590)"/>
+    <wire from="(740,120)" to="(810,120)"/>
+    <wire from="(870,620)" to="(870,680)"/>
+    <wire from="(530,470)" to="(600,470)"/>
+    <wire from="(180,430)" to="(260,430)"/>
+    <wire from="(890,220)" to="(890,410)"/>
+    <wire from="(440,190)" to="(440,240)"/>
+    <wire from="(260,630)" to="(530,630)"/>
+    <wire from="(100,660)" to="(620,660)"/>
+    <wire from="(460,160)" to="(530,160)"/>
+    <wire from="(560,110)" to="(570,110)"/>
+    <wire from="(500,570)" to="(700,570)"/>
+    <wire from="(650,370)" to="(650,380)"/>
+    <wire from="(620,340)" to="(620,350)"/>
+    <wire from="(410,370)" to="(410,380)"/>
+    <wire from="(680,310)" to="(740,310)"/>
+    <wire from="(380,340)" to="(380,350)"/>
+    <wire from="(730,50)" to="(730,80)"/>
+    <wire from="(700,350)" to="(700,570)"/>
+    <wire from="(890,50)" to="(890,70)"/>
+    <wire from="(620,260)" to="(620,280)"/>
+    <wire from="(870,220)" to="(890,220)"/>
+    <wire from="(480,310)" to="(500,310)"/>
+    <wire from="(650,380)" to="(740,380)"/>
+    <wire from="(390,190)" to="(390,230)"/>
+    <wire from="(970,50)" to="(970,110)"/>
+    <wire from="(570,50)" to="(570,110)"/>
+    <wire from="(660,400)" to="(740,400)"/>
+    <wire from="(300,400)" to="(300,590)"/>
+    <wire from="(860,60)" to="(870,60)"/>
+    <wire from="(420,300)" to="(420,370)"/>
+    <wire from="(620,550)" to="(620,560)"/>
+    <wire from="(500,310)" to="(500,570)"/>
+    <wire from="(210,370)" to="(270,370)"/>
+    <wire from="(260,240)" to="(440,240)"/>
+    <wire from="(460,150)" to="(510,150)"/>
+    <wire from="(910,110)" to="(970,110)"/>
+    <wire from="(810,50)" to="(810,120)"/>
+    <wire from="(540,540)" to="(600,540)"/>
+    <wire from="(400,570)" to="(400,580)"/>
+    <wire from="(660,300)" to="(660,370)"/>
+    <wire from="(560,440)" to="(560,510)"/>
+    <wire from="(710,90)" to="(750,90)"/>
+    <wire from="(320,440)" to="(320,520)"/>
+    <wire from="(330,50)" to="(330,130)"/>
+    <wire from="(410,50)" to="(410,130)"/>
+    <wire from="(210,220)" to="(210,240)"/>
+    <wire from="(490,50)" to="(490,140)"/>
+    <wire from="(710,160)" to="(710,180)"/>
+    <wire from="(560,440)" to="(580,440)"/>
+    <wire from="(430,300)" to="(460,300)"/>
+    <wire from="(380,490)" to="(410,490)"/>
+    <wire from="(180,440)" to="(270,440)"/>
+    <wire from="(320,520)" to="(340,520)"/>
+    <wire from="(320,440)" to="(340,440)"/>
+    <wire from="(870,620)" to="(1090,620)"/>
+    <wire from="(400,520)" to="(420,520)"/>
+    <wire from="(1090,620)" to="(1090,680)"/>
+    <wire from="(400,370)" to="(410,370)"/>
+    <wire from="(660,370)" to="(740,370)"/>
+    <wire from="(760,330)" to="(770,330)"/>
+    <wire from="(290,330)" to="(360,330)"/>
+    <wire from="(640,370)" to="(650,370)"/>
+    <wire from="(400,290)" to="(460,290)"/>
+    <wire from="(220,310)" to="(220,380)"/>
+    <wire from="(870,50)" to="(870,60)"/>
+    <wire from="(410,390)" to="(460,390)"/>
+    <wire from="(270,230)" to="(270,370)"/>
+    <wire from="(270,230)" to="(390,230)"/>
+    <wire from="(310,610)" to="(310,620)"/>
+    <wire from="(320,260)" to="(560,260)"/>
+    <wire from="(160,460)" to="(160,480)"/>
+    <wire from="(820,260)" to="(820,670)"/>
+    <wire from="(710,430)" to="(710,580)"/>
+    <wire from="(320,550)" to="(360,550)"/>
+    <wire from="(710,50)" to="(710,70)"/>
+    <wire from="(280,50)" to="(280,150)"/>
+    <wire from="(460,140)" to="(490,140)"/>
+    <wire from="(40,680)" to="(830,680)"/>
+    <wire from="(190,50)" to="(190,350)"/>
+    <wire from="(880,80)" to="(910,80)"/>
+    <wire from="(160,50)" to="(160,420)"/>
+    <wire from="(550,560)" to="(620,560)"/>
+    <wire from="(410,390)" to="(410,440)"/>
+>>>>>>> Stashed changes
     <wire from="(40,50)" to="(40,680)"/>
-    <wire from="(640,400)" to="(720,400)"/>
-    <wire from="(840,60)" to="(850,60)"/>
-    <wire from="(280,400)" to="(280,590)"/>
-    <wire from="(750,210)" to="(760,210)"/>
-    <wire from="(400,300)" to="(400,370)"/>
-    <wire from="(600,550)" to="(600,560)"/>
-    <wire from="(480,310)" to="(480,570)"/>
-    <wire from="(440,150)" to="(490,150)"/>
-    <wire from="(890,110)" to="(950,110)"/>
-    <wire from="(520,540)" to="(580,540)"/>
+    <wire from="(520,400)" to="(520,590)"/>
+    <wire from="(790,50)" to="(790,110)"/>
+    <wire from="(770,270)" to="(770,330)"/>
+    <wire from="(650,390)" to="(650,440)"/>
+    <wire from="(250,450)" to="(250,640)"/>
+    <wire from="(950,50)" to="(950,100)"/>
+    <wire from="(680,60)" to="(690,60)"/>
+    <wire from="(710,260)" to="(710,270)"/>
+    <wire from="(300,400)" to="(360,400)"/>
+    <wire from="(560,110)" to="(560,120)"/>
+    <wire from="(320,300)" to="(320,370)"/>
+    <wire from="(310,50)" to="(310,120)"/>
+    <wire from="(620,410)" to="(620,420)"/>
+    <wire from="(690,320)" to="(740,320)"/>
+    <wire from="(400,510)" to="(450,510)"/>
     <wire from="(380,570)" to="(380,580)"/>
-    <wire from="(790,50)" to="(790,120)"/>
-    <wire from="(540,440)" to="(540,510)"/>
-    <wire from="(240,240)" to="(420,240)"/>
-    <wire from="(640,300)" to="(640,370)"/>
-    <wire from="(690,90)" to="(730,90)"/>
-    <wire from="(250,230)" to="(250,310)"/>
-    <wire from="(300,440)" to="(300,520)"/>
-    <wire from="(310,50)" to="(310,130)"/>
+    <wire from="(550,50)" to="(550,120)"/>
+    <wire from="(560,300)" to="(560,370)"/>
+    <wire from="(730,110)" to="(790,110)"/>
+    <wire from="(380,410)" to="(380,420)"/>
+    <wire from="(380,490)" to="(380,500)"/>
+    <wire from="(70,670)" to="(820,670)"/>
     <wire from="(390,50)" to="(390,130)"/>
+<<<<<<< Updated upstream
     <wire from="(470,50)" to="(470,140)"/>
     <wire from="(690,160)" to="(690,180)"/>
     <wire from="(540,440)" to="(560,440)"/>
@@ -379,11 +645,42 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(850,50)" name="Pin">
+=======
+    <wire from="(350,170)" to="(350,250)"/>
+    <wire from="(230,100)" to="(230,120)"/>
+    <wire from="(490,580)" to="(710,580)"/>
+    <wire from="(560,300)" to="(580,300)"/>
+    <wire from="(660,400)" to="(660,510)"/>
+    <wire from="(640,300)" to="(660,300)"/>
+    <wire from="(320,300)" to="(340,300)"/>
+    <wire from="(400,300)" to="(420,300)"/>
+    <wire from="(70,50)" to="(70,670)"/>
+    <wire from="(560,140)" to="(560,260)"/>
+    <wire from="(270,440)" to="(270,620)"/>
+    <wire from="(480,390)" to="(490,390)"/>
+    <wire from="(230,120)" to="(310,120)"/>
+    <wire from="(760,410)" to="(890,410)"/>
+    <wire from="(670,300)" to="(670,360)"/>
+    <wire from="(770,160)" to="(770,220)"/>
+    <wire from="(430,300)" to="(430,360)"/>
+    <wire from="(260,240)" to="(260,360)"/>
+    <wire from="(420,400)" to="(420,520)"/>
+    <comp loc="(400,350)" name="1 bit"/>
+    <comp lib="0" loc="(930,50)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="0" loc="(590,50)" name="Pin">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="F0"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(690,140)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="8"/>
@@ -423,12 +720,47 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(650,50)" name="Pin">
+=======
+    <comp loc="(400,280)" name="1 bit"/>
+    <comp lib="0" loc="(390,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(870,220)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="6" loc="(879,560)" name="Text">
+      <a name="text" val="010 :: NOT A"/>
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(490,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="R"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(770,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(710,50)" name="Pin">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="Q7"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(290,50)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
@@ -451,12 +783,31 @@
     </comp>
     <comp loc="(830,160)" name="CMP"/>
     <comp lib="0" loc="(530,50)" name="Pin">
+=======
+    <comp lib="6" loc="(879,590)" name="Text">
+      <a name="text" val="101 :: XOR"/>
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(879,580)" name="Text">
+      <a name="text" val="100 :: OR"/>
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(340,370)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(550,50)" name="Pin">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="F2"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(870,140)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="8"/>
@@ -481,12 +832,21 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(470,50)" name="Pin">
+=======
+    <comp lib="0" loc="(580,370)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(410,50)" name="Pin">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="R"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(750,50)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
@@ -524,10 +884,41 @@
     </comp>
     <comp loc="(380,420)" name="1 bit"/>
     <comp lib="0" loc="(560,300)" name="Splitter">
+=======
+    <comp lib="0" loc="(580,440)" name="Splitter">
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
       <a name="appear" val="center"/>
     </comp>
+    <comp lib="0" loc="(480,390)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(100,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="label" val="H"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp loc="(640,420)" name="1 bit"/>
+    <comp lib="0" loc="(130,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="label" val="V"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(560,140)" name="Splitter">
+      <a name="facing" val="north"/>
+>>>>>>> Stashed changes
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+      <a name="appear" val="center"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp loc="(380,280)" name="1 bit"/>
     <comp lib="6" loc="(859,570)" name="Text">
       <a name="text" val="011 :: NAND"/>
@@ -554,12 +945,28 @@
       <a name="appear" val="center"/>
     </comp>
     <comp lib="0" loc="(100,50)" name="Pin">
+=======
+    <comp lib="0" loc="(710,260)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(530,50)" name="Pin">
       <a name="facing" val="south"/>
-      <a name="output" val="true"/>
-      <a name="label" val="H"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="C"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="0" loc="(430,50)" name="Pin">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(560,370)" name="Splitter">
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
@@ -614,14 +1021,88 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(670,50)" name="Pin">
+=======
+    <comp lib="0" loc="(330,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(970,50)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="6" loc="(879,640)" name="Text">
+      <a name="text" val="100 :: LSR"/>
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(879,660)" name="Text">
+      <a name="text" val="101 :: CSR"/>
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(340,440)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="6" loc="(879,670)" name="Text">
+      <a name="text" val="011 :: CSL"/>
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(879,570)" name="Text">
+      <a name="text" val="011 :: NAND"/>
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(580,300)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(910,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(450,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="label" val="X0"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(440,190)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(730,50)" name="Pin">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp loc="(380,500)" name="1 bit"/>
     <comp lib="0" loc="(510,610)" name="Splitter">
       <a name="facing" val="north"/>
+=======
+    <comp lib="1" loc="(620,260)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(480,310)" name="Splitter">
+      <a name="facing" val="west"/>
+>>>>>>> Stashed changes
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
       <a name="appear" val="center"/>
@@ -630,6 +1111,7 @@
       <a name="bit2" val="1"/>
       <a name="bit3" val="0"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(320,370)" name="Splitter">
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
@@ -658,11 +1140,57 @@
       <a name="appear" val="center"/>
     </comp>
     <comp lib="0" loc="(730,50)" name="Pin">
+=======
+    <comp lib="0" loc="(750,50)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="0" loc="(720,350)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(720,430)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp loc="(210,350)" name="Zero"/>
+    <comp loc="(460,130)" name="Shift register"/>
+    <comp lib="0" loc="(630,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="M"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp loc="(400,420)" name="1 bit"/>
+    <comp lib="0" loc="(710,140)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="1" loc="(210,260)" name="NOT Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="0" loc="(790,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(890,50)" name="Pin">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="6" loc="(859,580)" name="Text">
       <a name="text" val="100 :: OR"/>
       <a name="font" val="SansSerif bold 10"/>
@@ -695,11 +1223,40 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(370,190)" name="Splitter">
+=======
+    <comp lib="0" loc="(390,190)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
       <a name="appear" val="center"/>
     </comp>
+    <comp loc="(640,490)" name="1 bit"/>
+    <comp lib="0" loc="(570,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="F1"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(310,610)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="appear" val="center"/>
+      <a name="bit0" val="3"/>
+      <a name="bit1" val="2"/>
+      <a name="bit2" val="1"/>
+      <a name="bit3" val="0"/>
+    </comp>
+    <comp loc="(640,350)" name="1 bit"/>
+    <comp lib="0" loc="(530,610)" name="Splitter">
+>>>>>>> Stashed changes
+      <a name="facing" val="north"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="appear" val="center"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(310,50)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
@@ -713,12 +1270,33 @@
     </comp>
     <comp loc="(210,220)" name="Zero"/>
     <comp lib="0" loc="(490,50)" name="Pin">
+=======
+    <comp lib="6" loc="(879,540)" name="Text">
+      <a name="text" val="000 :: ADD / M=1 SUB / Cin=1 INC"/>
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(760,410)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(870,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(40,50)" name="Pin">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="L"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(600,260)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
@@ -729,25 +1307,55 @@
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(560,440)" name="Splitter">
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
-      <a name="appear" val="center"/>
-    </comp>
-    <comp lib="0" loc="(410,50)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp loc="(380,350)" name="1 bit"/>
-    <comp lib="0" loc="(740,410)" name="Splitter">
+=======
+    <comp lib="0" loc="(760,330)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
       <a name="appear" val="center"/>
     </comp>
+    <comp lib="0" loc="(950,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+>>>>>>> Stashed changes
+    </comp>
+    <comp lib="0" loc="(580,510)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="6" loc="(879,520)" name="Text">
+      <a name="text" val="8 BIT ALU :: FUNCTIONS"/>
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp loc="(400,500)" name="1 bit"/>
+    <comp lib="6" loc="(879,610)" name="Text">
+      <a name="text" val="111 :: XNOR"/>
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp loc="(750,200)" name="Q XOR M"/>
+    <comp lib="0" loc="(350,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+<<<<<<< Updated upstream
+    <comp loc="(380,350)" name="1 bit"/>
+    <comp lib="0" loc="(740,410)" name="Splitter">
+      <a name="facing" val="west"/>
+=======
+    <comp lib="0" loc="(780,220)" name="Splitter">
+>>>>>>> Stashed changes
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="center"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(370,50)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
@@ -761,11 +1369,64 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(770,50)" name="Pin">
+=======
+    <comp lib="0" loc="(220,50)" name="Pin">
       <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
+      <a name="output" val="true"/>
+      <a name="label" val="S"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="0" loc="(850,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="P7"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(710,180)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="6" loc="(879,600)" name="Text">
+      <a name="text" val="110 :: NOR"/>
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(879,550)" name="Text">
+      <a name="text" val="001 :: AND"/>
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="1" loc="(220,310)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(890,140)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(160,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="label" val="P"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(190,50)" name="Pin">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Z"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(850,210)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="8"/>
@@ -808,12 +1469,42 @@
       <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
+=======
+    <comp lib="1" loc="(220,70)" name="AND Gate">
+      <a name="facing" val="north"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(670,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q7"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(70,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="label" val="P=Q"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(390,620)" name="XOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(340,300)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+>>>>>>> Stashed changes
       <a name="appear" val="center"/>
       <a name="bit0" val="3"/>
       <a name="bit1" val="2"/>
       <a name="bit2" val="1"/>
       <a name="bit3" val="0"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(390,50)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
@@ -826,17 +1517,62 @@
       <a name="halign" val="left"/>
     </comp>
     <comp lib="0" loc="(350,50)" name="Pin">
+=======
+    <comp lib="0" loc="(610,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Cin"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp loc="(850,170)" name="CMP"/>
+    <comp lib="0" loc="(810,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q0"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp loc="(640,280)" name="1 bit"/>
+    <comp lib="0" loc="(280,50)" name="Pin">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(690,180)" name="Splitter">
+=======
+    <comp lib="0" loc="(690,50)" name="Pin">
       <a name="facing" val="south"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-      <a name="appear" val="center"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp loc="(180,420)" name="Parity"/>
+    <comp lib="0" loc="(160,480)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Odd"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(370,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(510,50)" name="Pin">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="L"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp loc="(180,290)" name="Parity"/>
     <comp lib="0" loc="(870,50)" name="Pin">
       <a name="facing" val="south"/>
@@ -871,15 +1607,40 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(320,300)" name="Splitter">
+=======
+    <comp lib="0" loc="(990,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="P0"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(310,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="label" val="X7"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(879,650)" name="Text">
+      <a name="text" val="010 :: LSL"/>
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(340,520)" name="Splitter">
+>>>>>>> Stashed changes
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
       <a name="appear" val="center"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="6" loc="(859,560)" name="Text">
       <a name="text" val="010 :: NOT A"/>
       <a name="font" val="SansSerif bold 10"/>
       <a name="halign" val="left"/>
     </comp>
+=======
+>>>>>>> Stashed changes
   </circuit>
   <circuit name="CMP">
     <a name="circuit" val="CMP"/>
@@ -1090,11 +1851,80 @@
     <wire from="(360,500)" to="(430,500)"/>
     <wire from="(360,660)" to="(430,660)"/>
     <wire from="(80,850)" to="(210,850)"/>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(460,860)" name="AND Gate">
+=======
+    <comp lib="1" loc="(460,750)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="negate3" val="true"/>
+    </comp>
+    <comp lib="1" loc="(460,810)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="0" loc="(80,970)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="P7"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(80,700)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q3"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(320,290)" name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="0" loc="(80,790)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="P4"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(320,330)" name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="1" loc="(460,510)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="8"/>
+      <a name="negate6" val="true"/>
+    </comp>
+    <comp lib="1" loc="(320,170)" name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="0" loc="(80,670)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="P2"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(80,640)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q2"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(80,850)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="P5"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(80,910)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="P6"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(320,90)" name="XOR Gate">
+>>>>>>> Stashed changes
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
       <a name="negate1" val="true"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(460,410)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="9"/>
@@ -1103,13 +1933,29 @@
     <comp lib="0" loc="(80,670)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="P2"/>
+=======
+    <comp lib="1" loc="(460,860)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="0" loc="(80,730)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="P3"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="1" loc="(320,210)" name="XOR Gate">
+    <comp lib="0" loc="(80,940)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q7"/>
+>>>>>>> Stashed changes
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(320,250)" name="XOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
       <a name="negate1" val="true"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(80,790)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="P4"/>
@@ -1121,10 +1967,21 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="1" loc="(320,330)" name="XOR Gate">
+=======
+    <comp lib="0" loc="(610,450)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="P&gt;Q"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(320,210)" name="XOR Gate">
+>>>>>>> Stashed changes
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
       <a name="negate1" val="true"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(460,810)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="4"/>
@@ -1158,10 +2015,26 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="1" loc="(320,90)" name="XOR Gate">
+=======
+    <comp lib="0" loc="(610,290)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="P=Q"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(460,410)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="9"/>
+      <a name="negate7" val="true"/>
+    </comp>
+    <comp lib="1" loc="(320,50)" name="XOR Gate">
+>>>>>>> Stashed changes
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
       <a name="negate1" val="true"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(590,450)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="8"/>
@@ -1169,19 +2042,31 @@
     <comp lib="0" loc="(80,880)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="Q6"/>
+=======
+    <comp lib="0" loc="(80,520)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q0"/>
+>>>>>>> Stashed changes
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(610,450)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="P&gt;Q"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="1" loc="(460,750)" name="AND Gate">
+    <comp lib="1" loc="(590,290)" name="AND Gate">
       <a name="size" val="30"/>
-      <a name="negate3" val="true"/>
+      <a name="inputs" val="8"/>
     </comp>
+<<<<<<< Updated upstream
+    <comp lib="1" loc="(460,750)" name="AND Gate">
+=======
+    <comp lib="0" loc="(80,820)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q5"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(590,450)" name="OR Gate">
+>>>>>>> Stashed changes
+      <a name="size" val="30"/>
+      <a name="inputs" val="8"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(460,900)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -1203,10 +2088,14 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(80,760)" name="Pin">
+=======
+    <comp lib="0" loc="(80,580)" name="Pin">
+>>>>>>> Stashed changes
       <a name="tristate" val="false"/>
-      <a name="label" val="Q4"/>
+      <a name="label" val="Q1"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(590,290)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="8"/>
@@ -1227,10 +2116,19 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="1" loc="(320,250)" name="XOR Gate">
+=======
+    <comp lib="1" loc="(460,680)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="6"/>
+      <a name="negate4" val="true"/>
+    </comp>
+    <comp lib="1" loc="(320,130)" name="XOR Gate">
+>>>>>>> Stashed changes
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
       <a name="negate1" val="true"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(80,550)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="P0"/>
@@ -1242,13 +2140,27 @@
       <a name="negate1" val="true"/>
     </comp>
     <comp lib="0" loc="(80,640)" name="Pin">
+=======
+    <comp lib="0" loc="(80,760)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="Q2"/>
+      <a name="label" val="Q4"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="0" loc="(80,880)" name="Pin">
+>>>>>>> Stashed changes
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q6"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(80,580)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="Q1"/>
+=======
+    <comp lib="0" loc="(80,610)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="P1"/>
+>>>>>>> Stashed changes
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="1" loc="(460,600)" name="AND Gate">
@@ -1256,6 +2168,7 @@
       <a name="inputs" val="7"/>
       <a name="negate5" val="true"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(460,510)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="8"/>
@@ -1270,6 +2183,17 @@
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
       <a name="negate1" val="true"/>
+=======
+    <comp lib="0" loc="(80,550)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="P0"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(460,900)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="negate0" val="true"/>
+>>>>>>> Stashed changes
     </comp>
   </circuit>
   <circuit name="Q XOR M">
@@ -1332,6 +2256,7 @@
     <wire from="(300,70)" to="(300,110)"/>
     <wire from="(380,70)" to="(380,110)"/>
     <wire from="(340,70)" to="(340,110)"/>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(100,70)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
@@ -1350,6 +2275,20 @@
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+=======
+    <comp lib="0" loc="(230,170)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Q4'"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(110,170)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Q7'"/>
+      <a name="labelloc" val="south"/>
+>>>>>>> Stashed changes
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(340,70)" name="Pin">
@@ -1365,6 +2304,7 @@
       <a name="inputs" val="2"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(110,170)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
@@ -1373,12 +2313,16 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(180,70)" name="Pin">
+=======
+    <comp lib="1" loc="(110,150)" name="XOR Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="Q5"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(310,170)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
@@ -1387,18 +2331,40 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="1" loc="(350,150)" name="XOR Gate">
+=======
+    <comp lib="0" loc="(180,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q5"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(190,150)" name="XOR Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(380,70)" name="Pin">
+=======
+    <comp lib="0" loc="(100,70)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="Q0"/>
+      <a name="label" val="Q7"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="0" loc="(260,70)" name="Pin">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q3"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(230,170)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
@@ -1421,12 +2387,56 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(300,70)" name="Pin">
+=======
+    <comp lib="1" loc="(390,150)" name="XOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(150,150)" name="XOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(150,170)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Q6'"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(380,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q0"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(270,170)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Q3'"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(190,170)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Q5'"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(270,150)" name="XOR Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="Q2"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(150,170)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
@@ -1452,6 +2462,26 @@
       <a name="tristate" val="false"/>
       <a name="label" val="Q6"/>
       <a name="labelloc" val="north"/>
+=======
+    <comp lib="0" loc="(390,170)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Q0'"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(310,170)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Q2'"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(350,150)" name="XOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+>>>>>>> Stashed changes
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="1" loc="(310,150)" name="XOR Gate">
@@ -1460,6 +2490,7 @@
       <a name="inputs" val="2"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(270,150)" name="XOR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
@@ -1479,12 +2510,27 @@
       <a name="labelloc" val="south"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+=======
+    <comp lib="0" loc="(140,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q6"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(70,90)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="M"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+>>>>>>> Stashed changes
     <comp lib="1" loc="(230,150)" name="XOR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(190,170)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
@@ -1495,6 +2541,20 @@
     <comp lib="0" loc="(70,90)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="M"/>
+=======
+    <comp lib="0" loc="(300,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q2"/>
+      <a name="labelloc" val="north"/>
+>>>>>>> Stashed changes
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(350,170)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Q1'"/>
+      <a name="labelloc" val="south"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
   </circuit>
@@ -1712,6 +2772,7 @@
     <wire from="(340,680)" to="(340,1050)"/>
     <wire from="(170,180)" to="(170,370)"/>
     <wire from="(270,1050)" to="(340,1050)"/>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(160,130)" name="NOT Gate">
       <a name="facing" val="south"/>
       <a name="size" val="20"/>
@@ -1723,6 +2784,22 @@
       <a name="tristate" val="false"/>
       <a name="label" val="Q"/>
       <a name="labelfont" val="SansSerif bold 12"/>
+=======
+    <comp lib="1" loc="(270,510)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(270,990)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(430,660)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="12"/>
+    </comp>
+    <comp lib="1" loc="(270,1120)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+>>>>>>> Stashed changes
     </comp>
     <comp lib="0" loc="(450,660)" name="Pin">
       <a name="facing" val="west"/>
@@ -1731,6 +2808,7 @@
       <a name="labelloc" val="east"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(270,1330)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
@@ -1743,12 +2821,21 @@
     <comp lib="1" loc="(270,1260)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="4"/>
+=======
+    <comp lib="1" loc="(270,740)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(190,280)" name="NOT Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="20"/>
+>>>>>>> Stashed changes
     </comp>
     <comp lib="0" loc="(70,100)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="F1"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(180,230)" name="NOT Gate">
       <a name="facing" val="south"/>
       <a name="size" val="20"/>
@@ -1772,9 +2859,23 @@
       <a name="inputs" val="4"/>
     </comp>
     <comp lib="1" loc="(430,380)" name="OR Gate">
+=======
+    <comp lib="1" loc="(270,940)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
+    <comp lib="1" loc="(270,370)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(270,1260)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(270,810)" name="AND Gate">
+>>>>>>> Stashed changes
+      <a name="size" val="30"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(270,370)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
@@ -1794,8 +2895,18 @@
       <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(270,880)" name="AND Gate">
-      <a name="size" val="30"/>
+=======
+    <comp lib="0" loc="(70,50)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="F2"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="1" loc="(430,380)" name="OR Gate">
+>>>>>>> Stashed changes
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(200,330)" name="NOT Gate">
       <a name="facing" val="south"/>
       <a name="size" val="20"/>
@@ -1806,13 +2917,16 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="1" loc="(270,940)" name="AND Gate">
+=======
+    <comp lib="1" loc="(270,670)" name="AND Gate">
+>>>>>>> Stashed changes
       <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
     </comp>
     <comp lib="1" loc="(150,80)" name="NOT Gate">
       <a name="facing" val="south"/>
       <a name="size" val="20"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(70,300)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="P"/>
@@ -1836,8 +2950,69 @@
       <a name="inputs" val="4"/>
     </comp>
     <comp lib="1" loc="(430,660)" name="OR Gate">
+=======
+    <comp lib="1" loc="(270,880)" name="AND Gate">
       <a name="size" val="30"/>
-      <a name="inputs" val="12"/>
+    </comp>
+    <comp lib="1" loc="(270,1190)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="0" loc="(450,380)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Cout"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(270,600)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(170,180)" name="NOT Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(150,80)" name="NOT Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(180,230)" name="NOT Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(270,1330)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="0" loc="(70,250)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(200,330)" name="NOT Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="0" loc="(70,300)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="P"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(270,1050)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(160,130)" name="NOT Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="0" loc="(70,200)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Cin"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(270,440)" name="AND Gate">
+>>>>>>> Stashed changes
+      <a name="size" val="30"/>
     </comp>
   </circuit>
   <circuit name="Zero">
@@ -1871,6 +3046,7 @@
     <wire from="(80,110)" to="(100,110)"/>
     <wire from="(170,110)" to="(190,110)"/>
     <wire from="(100,110)" to="(100,170)"/>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(190,90)" name="Pin">
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
@@ -1885,9 +3061,20 @@
       <a name="inputs" val="9"/>
     </comp>
     <comp lib="0" loc="(80,90)" name="Pin">
+=======
+    <comp lib="0" loc="(140,230)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Zero"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(130,90)" name="Pin">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
+      <a name="width" val="4"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="C"/>
+      <a name="label" val="X4..7"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
@@ -1899,11 +3086,11 @@
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(140,230)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Zero"/>
-      <a name="labelloc" val="south"/>
+    <comp lib="0" loc="(80,90)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="C"/>
+      <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(170,130)" name="Splitter">
@@ -1918,6 +3105,14 @@
       <a name="incoming" val="4"/>
       <a name="appear" val="center"/>
     </comp>
+<<<<<<< Updated upstream
+=======
+    <comp lib="1" loc="(140,210)" name="NOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="9"/>
+    </comp>
+>>>>>>> Stashed changes
   </circuit>
   <circuit name="Shift register">
     <a name="circuit" val="Shift register"/>
@@ -2163,16 +3358,25 @@
     <wire from="(300,110)" to="(430,110)"/>
     <wire from="(330,140)" to="(460,140)"/>
     <wire from="(650,120)" to="(650,170)"/>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(600,200)" name="AND Gate">
+=======
+    <comp lib="1" loc="(900,460)" name="OR Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(1160,460)" name="OR Gate">
+=======
+    <comp lib="1" loc="(770,460)" name="OR Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(380,70)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
@@ -2188,11 +3392,36 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="1" loc="(290,200)" name="AND Gate">
+=======
+    <comp lib="1" loc="(380,200)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(100,120)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(990,200)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="1" loc="(640,200)" name="AND Gate">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(470,200)" name="AND Gate">
+=======
+    <comp lib="1" loc="(210,200)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(640,460)" name="OR Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -2204,36 +3433,63 @@
       <a name="labelloc" val="south"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(770,200)" name="AND Gate">
+=======
+    <comp lib="0" loc="(900,70)" name="Pin">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="X2"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(1030,200)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="1" loc="(380,460)" name="OR Gate">
+=======
+    <comp lib="0" loc="(60,140)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="L"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(160,480)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Carry'"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(160,280)" name="OR Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(160,280)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="1" loc="(550,200)" name="AND Gate">
+=======
+    <comp lib="1" loc="(250,200)" name="AND Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+      <a name="inputs" val="3"/>
     </comp>
     <comp lib="1" loc="(420,200)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(1030,460)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
@@ -2255,10 +3511,28 @@
       <a name="size" val="20"/>
     </comp>
     <comp lib="1" loc="(640,460)" name="OR Gate">
+=======
+    <comp lib="0" loc="(250,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="X7"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(380,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="X6"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(1070,200)" name="AND Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
+      <a name="inputs" val="2"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(60,110)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="R"/>
@@ -2270,27 +3544,40 @@
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="1" loc="(510,200)" name="AND Gate">
+=======
+    <comp lib="0" loc="(770,480)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="X3'"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(1190,380)" name="AND Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(160,200)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="1" loc="(640,200)" name="AND Gate">
+=======
+    <comp lib="1" loc="(730,200)" name="AND Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(1030,480)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="label" val="X1'"/>
-      <a name="labelloc" val="south"/>
+    <comp lib="0" loc="(60,110)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="R"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(60,330)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="C"/>
@@ -2309,10 +3596,14 @@
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(900,200)" name="AND Gate">
+=======
+    <comp lib="1" loc="(1030,200)" name="AND Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(250,480)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
@@ -2321,12 +3612,14 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(640,70)" name="Pin">
+=======
+    <comp lib="1" loc="(1200,200)" name="AND Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="X4"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(100,150)" name="NOT Gate">
       <a name="size" val="20"/>
     </comp>
@@ -2338,31 +3631,21 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="1" loc="(1070,200)" name="AND Gate">
+=======
+    <comp lib="1" loc="(1160,200)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(250,460)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(290,200)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(380,200)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(220,380)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(380,480)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="label" val="X6'"/>
-      <a name="labelloc" val="south"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="1" loc="(770,460)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(770,70)" name="Pin">
       <a name="facing" val="south"/>
@@ -2371,11 +3654,85 @@
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="1" loc="(420,200)" name="AND Gate">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+<<<<<<< Updated upstream
+    <comp lib="1" loc="(380,200)" name="AND Gate">
+=======
+    <comp lib="0" loc="(160,70)" name="Pin">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Carry"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(250,480)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="X7'"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+<<<<<<< Updated upstream
+    <comp lib="0" loc="(380,480)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="X6'"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(770,460)" name="OR Gate">
+=======
+    <comp lib="0" loc="(1030,480)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="X1'"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(380,460)" name="OR Gate">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+<<<<<<< Updated upstream
+    <comp lib="0" loc="(770,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="X3"/>
+=======
+    <comp lib="0" loc="(380,480)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="X6'"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(1160,460)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1030,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="X1"/>
+>>>>>>> Stashed changes
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
     <comp lib="0" loc="(60,140)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="L"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(1030,70)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
@@ -2391,15 +3748,31 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="1" loc="(860,200)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
+=======
     <comp lib="1" loc="(340,200)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="1" loc="(100,150)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(770,200)" name="AND Gate">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+<<<<<<< Updated upstream
+    <comp lib="1" loc="(340,200)" name="AND Gate">
+=======
+    <comp lib="1" loc="(680,200)" name="AND Gate">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(1160,480)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
@@ -2408,16 +3781,32 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="1" loc="(730,200)" name="AND Gate">
+=======
+    <comp lib="1" loc="(810,200)" name="AND Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(510,460)" name="OR Gate">
+=======
+    <comp lib="1" loc="(1030,460)" name="OR Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(250,70)" name="Pin">
+=======
+    <comp lib="1" loc="(550,200)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(510,70)" name="Pin">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="X7"/>
@@ -2429,6 +3818,7 @@
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(900,480)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
@@ -2437,10 +3827,26 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="1" loc="(990,200)" name="AND Gate">
+=======
+    <comp lib="1" loc="(510,460)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(510,480)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="X5'"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(940,200)" name="AND Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(250,460)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
@@ -2454,42 +3860,87 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="1" loc="(680,200)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1200,200)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(210,200)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(900,70)" name="Pin">
+=======
+    <comp lib="0" loc="(640,70)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="X2"/>
+      <a name="label" val="X4"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="1" loc="(1160,200)" name="AND Gate">
+    <comp lib="1" loc="(600,200)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(160,200)" name="AND Gate">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+<<<<<<< Updated upstream
+    <comp lib="1" loc="(1200,200)" name="AND Gate">
+=======
+    <comp lib="1" loc="(510,200)" name="AND Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
+<<<<<<< Updated upstream
+    <comp lib="1" loc="(210,200)" name="AND Gate">
+=======
+    <comp lib="0" loc="(1160,480)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="X0'"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(220,380)" name="AND Gate">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1160,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="X0"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+<<<<<<< Updated upstream
+    <comp lib="1" loc="(1160,200)" name="AND Gate">
+=======
+    <comp lib="1" loc="(900,200)" name="AND Gate">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+<<<<<<< Updated upstream
+=======
+    <comp lib="1" loc="(470,200)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+>>>>>>> Stashed changes
     <comp lib="1" loc="(1120,200)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(250,200)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
+=======
+>>>>>>> Stashed changes
   </circuit>
   <circuit name="Parity">
     <a name="circuit" val="Parity"/>
@@ -2550,28 +4001,21 @@
     <wire from="(250,180)" to="(260,180)"/>
     <wire from="(270,140)" to="(270,200)"/>
     <wire from="(190,140)" to="(190,200)"/>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(160,400)" name="XOR Gate">
+=======
+    <comp lib="0" loc="(180,100)" name="Pin">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(260,240)" name="XOR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(110,500)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Parity"/>
-      <a name="labelloc" val="south"/>
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="X4..7"/>
+      <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="1" loc="(180,240)" name="XOR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
+<<<<<<< Updated upstream
+    <comp lib="1" loc="(260,240)" name="XOR Gate">
+=======
     <comp lib="0" loc="(260,100)" name="Pin">
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
@@ -2580,6 +4024,39 @@
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="1" loc="(220,240)" name="XOR Gate">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+<<<<<<< Updated upstream
+    <comp lib="0" loc="(110,500)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Parity"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+=======
+    <comp lib="1" loc="(160,400)" name="XOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+>>>>>>> Stashed changes
+    </comp>
+    <comp lib="1" loc="(180,240)" name="XOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(90,100)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Odd"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="1" loc="(220,240)" name="XOR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
@@ -2591,17 +4068,9 @@
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(140,240)" name="XOR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(260,120)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
-      <a name="appear" val="center"/>
-    </comp>
-    <comp lib="1" loc="(100,240)" name="XOR Gate">
+=======
+    <comp lib="1" loc="(260,240)" name="XOR Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -2613,11 +4082,39 @@
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="1" loc="(150,320)" name="XOR Gate">
+<<<<<<< Updated upstream
+    <comp lib="1" loc="(100,240)" name="XOR Gate">
+=======
+    <comp lib="0" loc="(110,500)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Parity"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(140,240)" name="XOR Gate">
+>>>>>>> Stashed changes
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+<<<<<<< Updated upstream
+    <comp lib="0" loc="(130,100)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="C"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(150,320)" name="XOR Gate">
+=======
+    <comp lib="1" loc="(230,320)" name="XOR Gate">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(180,120)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="4"/>
@@ -2632,17 +4129,34 @@
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="1" loc="(230,320)" name="XOR Gate">
+=======
+    <comp lib="1" loc="(100,240)" name="XOR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(180,100)" name="Pin">
+    <comp lib="1" loc="(150,320)" name="XOR Gate">
       <a name="facing" val="south"/>
-      <a name="width" val="4"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="X4..7"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(110,480)" name="XOR Gate">
+>>>>>>> Stashed changes
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(260,120)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(180,120)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="appear" val="center"/>
     </comp>
   </circuit>
 </project>
