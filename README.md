@@ -1,6 +1,6 @@
-# 8-bit-alu
+# 8 Bit arithmetic-logic unit
 
-8 Bit arithmetic-logic unit
+Transistor only 8 Bit arithmetic-logic unit project
 
 ## Functions
 
