@@ -4,9 +4,11 @@ Project to build an 8-bit arithmetic logic unit consisting only of transistors. 
 
 ## Input
 
-The data words ``P`` and ``Q`` and the control lines ``F0..2``, ``M``, ``Cin``, ``R``, ``L`` and ``C`` are set as inputs.
+The 8-bit wide data words ``P`` and ``Q`` and the control lines ``F0..2``, ``M``, ``Cin``, ``R``, ``L`` and ``C`` are set as inputs.
 
 ## Output
+
+The output of the arithmetic-logic unit is the 8-bit wide data word ``X`` and the status register consisting of another 8 bits.
 
 ### Status register
 
