@@ -1,6 +1,6 @@
-# 8 Bit arithmetic-logic unit
+# 8-bit arithmetic logic unit
 
-Project to build an 8-bit arithmetic logic unit consisting only of transistors. Further on, the construction of a transistor processor based on this ALU will follow.
+Project to build an 8-bit arithmetic logic unit (ALU) consisting only of transistors. Further on, the construction of a transistor processor based on this ALU will follow.
 
 ## Input
 
@@ -39,7 +39,7 @@ The shift functions can be performed independently of the previously used arithm
 
 ## Output
 
-The output of the arithmetic-logic unit is the 8-bit wide data word ``X`` and the status register consisting of another 8 bits.
+The output of the arithmetic logic unit is the 8-bit wide data word ``X`` and the status register consisting of another 8 bits.
 
 ### Status register
 
