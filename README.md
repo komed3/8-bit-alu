@@ -17,6 +17,13 @@
 | 1  | 1  | 0  | NOR   |
 | 1  | 1  | 1  | XNOR  |
 
+## Additional functions
+
+for ``F2..0 = 000``
+
+* ``M=1`` – subtraction ``A-B``
+* ``Cin=1`` – increment ``A++``
+
 ## Shift register
 
 | R | L | C | FNC |
