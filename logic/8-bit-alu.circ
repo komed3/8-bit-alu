@@ -53,12 +53,136 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <comp lib="0" loc="(1160,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="P0"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(1140,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(1080,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(940,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(1020,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="P7"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(1040,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(840,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q7"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(1060,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(980,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Q0"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(920,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(960,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(1100,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(1120,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(900,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(860,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(880,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
   </circuit>
   <circuit name="CMP">
     <a name="circuit" val="CMP"/>
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M91,41 Q95,51 99,41" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="50" stroke="#000000" stroke-width="2" width="90" x="50" y="40"/>
+      <text font-family="SansSerif" font-size="12" font-weight="bold" text-anchor="middle" x="95" y="70">CMP</text>
+      <circ-port height="8" pin="80,520" width="8" x="126" y="86"/>
+      <circ-port height="8" pin="80,550" width="8" x="126" y="36"/>
+      <circ-port height="8" pin="80,580" width="8" x="116" y="86"/>
+      <circ-port height="8" pin="80,610" width="8" x="116" y="36"/>
+      <circ-port height="8" pin="80,640" width="8" x="106" y="86"/>
+      <circ-port height="8" pin="80,670" width="8" x="106" y="36"/>
+      <circ-port height="8" pin="80,700" width="8" x="96" y="86"/>
+      <circ-port height="8" pin="80,730" width="8" x="96" y="36"/>
+      <circ-port height="8" pin="80,760" width="8" x="86" y="86"/>
+      <circ-port height="8" pin="80,790" width="8" x="86" y="36"/>
+      <circ-port height="8" pin="80,820" width="8" x="76" y="86"/>
+      <circ-port height="8" pin="80,850" width="8" x="76" y="36"/>
+      <circ-port height="8" pin="80,880" width="8" x="66" y="86"/>
+      <circ-port height="8" pin="80,910" width="8" x="66" y="36"/>
+      <circ-port height="8" pin="80,940" width="8" x="56" y="86"/>
+      <circ-port height="8" pin="80,970" width="8" x="56" y="36"/>
+      <circ-port height="10" pin="610,290" width="10" x="45" y="55"/>
+      <circ-port height="10" pin="610,450" width="10" x="45" y="65"/>
+      <circ-anchor facing="east" height="6" width="6" x="137" y="37"/>
+    </appear>
     <wire from="(130,100)" to="(130,550)"/>
     <wire from="(390,130)" to="(390,270)"/>
     <wire from="(100,40)" to="(100,440)"/>
@@ -426,6 +550,29 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M81,41 Q85,51 89,41" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="40" stroke="#000000" stroke-width="2" width="90" x="40" y="40"/>
+      <text font-family="SansSerif" font-size="12" font-weight="bold" text-anchor="middle" x="86" y="64">Q XOR M</text>
+      <circ-port height="8" pin="70,90" width="8" x="36" y="56"/>
+      <circ-port height="8" pin="100,70" width="8" x="46" y="36"/>
+      <circ-port height="8" pin="140,70" width="8" x="56" y="36"/>
+      <circ-port height="8" pin="180,70" width="8" x="66" y="36"/>
+      <circ-port height="8" pin="220,70" width="8" x="76" y="36"/>
+      <circ-port height="8" pin="260,70" width="8" x="86" y="36"/>
+      <circ-port height="8" pin="300,70" width="8" x="96" y="36"/>
+      <circ-port height="8" pin="340,70" width="8" x="106" y="36"/>
+      <circ-port height="8" pin="380,70" width="8" x="116" y="36"/>
+      <circ-port height="10" pin="110,170" width="10" x="45" y="75"/>
+      <circ-port height="10" pin="150,170" width="10" x="55" y="75"/>
+      <circ-port height="10" pin="190,170" width="10" x="65" y="75"/>
+      <circ-port height="10" pin="230,170" width="10" x="75" y="75"/>
+      <circ-port height="10" pin="270,170" width="10" x="85" y="75"/>
+      <circ-port height="10" pin="310,170" width="10" x="95" y="75"/>
+      <circ-port height="10" pin="350,170" width="10" x="105" y="75"/>
+      <circ-port height="10" pin="390,170" width="10" x="115" y="75"/>
+      <circ-anchor facing="east" height="6" width="6" x="127" y="37"/>
+    </appear>
     <wire from="(70,90)" to="(120,90)"/>
     <wire from="(270,150)" to="(270,170)"/>
     <wire from="(310,150)" to="(310,170)"/>
@@ -450,7 +597,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(160,90)" to="(160,110)"/>
     <wire from="(240,90)" to="(240,110)"/>
     <wire from="(200,90)" to="(200,110)"/>
-    <wire from="(400,90)" to="(430,90)"/>
     <wire from="(100,70)" to="(100,110)"/>
     <wire from="(140,70)" to="(140,110)"/>
     <wire from="(180,70)" to="(180,110)"/>
@@ -608,13 +754,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(430,90)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="M"/>
-      <a name="labelloc" val="east"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(270,170)" name="Pin">
