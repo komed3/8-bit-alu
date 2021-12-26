@@ -722,36 +722,34 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(110,260)" to="(170,260)"/>
-    <wire from="(170,250)" to="(170,260)"/>
-    <wire from="(190,130)" to="(190,140)"/>
-    <wire from="(180,200)" to="(180,210)"/>
-    <wire from="(80,80)" to="(80,90)"/>
-    <wire from="(90,130)" to="(90,270)"/>
-    <wire from="(270,130)" to="(270,140)"/>
-    <wire from="(150,130)" to="(150,150)"/>
-    <wire from="(230,130)" to="(230,150)"/>
-    <wire from="(170,140)" to="(190,140)"/>
-    <wire from="(250,140)" to="(270,140)"/>
-    <wire from="(180,200)" to="(240,200)"/>
-    <wire from="(170,140)" to="(170,150)"/>
-    <wire from="(240,190)" to="(240,200)"/>
-    <wire from="(250,140)" to="(250,150)"/>
-    <wire from="(60,70)" to="(60,80)"/>
-    <wire from="(110,260)" to="(110,270)"/>
+    <wire from="(180,230)" to="(240,230)"/>
+    <wire from="(270,130)" to="(270,150)"/>
+    <wire from="(110,310)" to="(110,330)"/>
+    <wire from="(170,150)" to="(170,170)"/>
+    <wire from="(190,130)" to="(190,150)"/>
+    <wire from="(170,290)" to="(170,310)"/>
+    <wire from="(250,150)" to="(250,170)"/>
+    <wire from="(150,130)" to="(150,170)"/>
+    <wire from="(230,130)" to="(230,170)"/>
+    <wire from="(110,310)" to="(170,310)"/>
+    <wire from="(90,130)" to="(90,330)"/>
     <wire from="(280,70)" to="(280,90)"/>
+    <wire from="(100,370)" to="(100,390)"/>
+    <wire from="(80,70)" to="(80,90)"/>
     <wire from="(100,70)" to="(100,90)"/>
-    <wire from="(100,310)" to="(100,330)"/>
-    <wire from="(160,70)" to="(160,90)"/>
+    <wire from="(180,230)" to="(180,250)"/>
     <wire from="(140,70)" to="(140,90)"/>
-    <wire from="(160,190)" to="(160,210)"/>
+    <wire from="(160,70)" to="(160,90)"/>
     <wire from="(180,70)" to="(180,90)"/>
-    <wire from="(240,70)" to="(240,90)"/>
+    <wire from="(240,210)" to="(240,230)"/>
     <wire from="(220,70)" to="(220,90)"/>
-    <wire from="(200,70)" to="(200,90)"/>
+    <wire from="(240,70)" to="(240,90)"/>
     <wire from="(260,70)" to="(260,90)"/>
-    <wire from="(60,80)" to="(80,80)"/>
-    <comp lib="1" loc="(170,250)" name="XOR Gate">
+    <wire from="(200,70)" to="(200,90)"/>
+    <wire from="(160,210)" to="(160,250)"/>
+    <wire from="(170,150)" to="(190,150)"/>
+    <wire from="(250,150)" to="(270,150)"/>
+    <comp lib="1" loc="(190,130)" name="XOR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -763,7 +761,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="1" loc="(190,130)" name="XOR Gate">
+    <comp lib="1" loc="(230,130)" name="XOR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -775,36 +773,21 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="1" loc="(150,130)" name="XOR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(100,310)" name="XOR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(60,70)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Odd"/>
-      <a name="labelloc" val="north"/>
+    <comp lib="0" loc="(100,390)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Parity"/>
+      <a name="labelloc" val="south"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(100,70)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="Carry"/>
+      <a name="label" val="C"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="1" loc="(160,190)" name="XOR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(240,190)" name="XOR Gate">
+    <comp lib="1" loc="(90,130)" name="XOR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -816,10 +799,22 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="1" loc="(270,130)" name="XOR Gate">
+    <comp lib="1" loc="(100,370)" name="XOR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(240,210)" name="XOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(80,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Odd"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(280,70)" name="Pin">
       <a name="facing" val="south"/>
@@ -828,6 +823,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="1" loc="(170,290)" name="XOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
     <comp lib="0" loc="(180,70)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
@@ -835,19 +835,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(100,330)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Parity"/>
-      <a name="labelloc" val="south"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="1" loc="(90,130)" name="XOR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(230,130)" name="XOR Gate">
+    <comp lib="1" loc="(160,210)" name="XOR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -858,6 +846,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="X6"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(270,130)" name="XOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(150,130)" name="XOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="0" loc="(260,70)" name="Pin">
       <a name="facing" val="south"/>
