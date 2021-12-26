@@ -53,6 +53,76 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M121,51 Q125,61 129,51" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="220" stroke="#000000" stroke-width="2" width="130" x="60" y="50"/>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="178" y="83">P0</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="178" y="153">P7</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="177" y="173">Q0</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="177" y="243">Q7</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="71" y="83">M</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="74" y="93">Cin</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="72" y="103">F0</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="72" y="113">F1</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="160" y="262">X0</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="91" y="262">X7</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="72" y="123">F2</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="71" y="133">C</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="70" y="143">L</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="71" y="153">R</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="76" y="173">Odd</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="160" y="64">C</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="149" y="64">S</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="129" y="64">P</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="140" y="64">Z</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="110" y="64">H</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="119" y="64">V</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="90" y="64">&gt;</text>
+      <text font-family="SansSerif" font-size="8" font-weight="bold" text-anchor="middle" x="100" y="64">=</text>
+      <text font-family="SansSerif" font-size="12" font-weight="bold" text-anchor="middle" x="126" y="164">8 BIT ALU</text>
+      <circ-port height="10" pin="40,50" width="10" x="85" y="45"/>
+      <circ-port height="10" pin="70,50" width="10" x="95" y="45"/>
+      <circ-port height="10" pin="100,50" width="10" x="105" y="45"/>
+      <circ-port height="10" pin="130,50" width="10" x="115" y="45"/>
+      <circ-port height="10" pin="160,50" width="10" x="125" y="45"/>
+      <circ-port height="10" pin="190,50" width="10" x="135" y="45"/>
+      <circ-port height="10" pin="220,50" width="10" x="145" y="45"/>
+      <circ-port height="10" pin="250,50" width="10" x="155" y="45"/>
+      <circ-port height="10" pin="290,50" width="10" x="85" y="265"/>
+      <circ-port height="10" pin="310,50" width="10" x="95" y="265"/>
+      <circ-port height="10" pin="330,50" width="10" x="105" y="265"/>
+      <circ-port height="10" pin="350,50" width="10" x="115" y="265"/>
+      <circ-port height="10" pin="370,50" width="10" x="125" y="265"/>
+      <circ-port height="10" pin="390,50" width="10" x="135" y="265"/>
+      <circ-port height="10" pin="410,50" width="10" x="145" y="265"/>
+      <circ-port height="10" pin="430,50" width="10" x="155" y="265"/>
+      <circ-port height="8" pin="470,50" width="8" x="56" y="146"/>
+      <circ-port height="8" pin="490,50" width="8" x="56" y="136"/>
+      <circ-port height="8" pin="510,50" width="8" x="56" y="126"/>
+      <circ-port height="8" pin="530,50" width="8" x="56" y="116"/>
+      <circ-port height="8" pin="550,50" width="8" x="56" y="106"/>
+      <circ-port height="8" pin="570,50" width="8" x="56" y="96"/>
+      <circ-port height="8" pin="590,50" width="8" x="56" y="86"/>
+      <circ-port height="8" pin="610,50" width="8" x="56" y="76"/>
+      <circ-port height="8" pin="650,50" width="8" x="186" y="236"/>
+      <circ-port height="8" pin="670,50" width="8" x="186" y="226"/>
+      <circ-port height="8" pin="690,50" width="8" x="186" y="216"/>
+      <circ-port height="8" pin="710,50" width="8" x="186" y="206"/>
+      <circ-port height="8" pin="730,50" width="8" x="186" y="196"/>
+      <circ-port height="8" pin="750,50" width="8" x="186" y="186"/>
+      <circ-port height="8" pin="770,50" width="8" x="186" y="176"/>
+      <circ-port height="8" pin="790,50" width="8" x="186" y="166"/>
+      <circ-port height="8" pin="830,50" width="8" x="186" y="146"/>
+      <circ-port height="8" pin="850,50" width="8" x="186" y="136"/>
+      <circ-port height="8" pin="870,50" width="8" x="186" y="126"/>
+      <circ-port height="8" pin="890,50" width="8" x="186" y="116"/>
+      <circ-port height="8" pin="910,50" width="8" x="186" y="106"/>
+      <circ-port height="8" pin="930,50" width="8" x="186" y="96"/>
+      <circ-port height="8" pin="950,50" width="8" x="186" y="86"/>
+      <circ-port height="8" pin="970,50" width="8" x="186" y="76"/>
+      <circ-port height="8" pin="190,350" width="8" x="56" y="166"/>
+      <circ-anchor facing="east" height="6" width="6" x="187" y="47"/>
+    </appear>
     <wire from="(380,290)" to="(440,290)"/>
     <wire from="(850,50)" to="(850,60)"/>
     <wire from="(390,390)" to="(440,390)"/>
@@ -1778,8 +1848,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <appear>
-      <rect fill="none" height="40" stroke="#000000" stroke-width="2" width="160" x="60" y="70"/>
       <path d="M136,71 Q140,81 144,71" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="40" stroke="#000000" stroke-width="2" width="160" x="60" y="70"/>
       <text font-family="SansSerif" font-size="12" font-weight="bold" text-anchor="middle" x="140" y="94">Shift register</text>
       <circ-port height="8" pin="60,110" width="8" x="216" y="76"/>
       <circ-port height="8" pin="60,140" width="8" x="216" y="86"/>
