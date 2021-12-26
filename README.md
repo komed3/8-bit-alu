@@ -10,13 +10,14 @@ The data words ``P`` and ``Q`` and the control lines ``F0..2``, ``M``, ``Cin``, 
 
 ### Status register
 
-| Flag | Name     | Description |
-|:----:|----------|-------------|
-|  C   | Carry    | Enables numbers larger than a single word to be added/subtracted by carrying a binary digit from a less significant word to the least significant bit of a more significant word as needed. |
-|  V   | Overflow | Indicates that the signed result of an operation is too large to fit in the register width using two's complement representation. |
-|  S   | Sign     | Indicates that the result of a mathematical operation is negative. |
-|  Z   | Zero     | Indicates that the result of an arithmetic or logical operation (or a load) was zero. |
-|  E   | A=B      | Indicates when the entered words A and B are equal. Unaffected by arithmetic operation. |
+| Flag | Name       | Description |
+|:----:|------------|-------------|
+| C    | Carry      | Enables numbers larger than a single word to be added/subtracted by carrying a binary digit from a less significant word to the least significant bit of a more significant word as needed. |
+| V    | Overflow   | Indicates that the signed result of an operation is too large to fit in the register width using two's complement representation. |
+| S    | Sign       | Indicates that the result of a mathematical operation is negative. |
+| Z    | Zero       | Indicates that the result of an arithmetic or logical operation (or a load) was zero. |
+| P    | Parity     | Indicates whether the number of set bits of the last result is even or odd (``Odd=1``). |
+| H    | Half-carry | Indicates that a bit carry was produced between the nibbles (4-bit halves of a byte operand) as a result of the last arithmetic operation. |
 
 ## Functions
 
