@@ -1,5 +1,7 @@
 # 8-bit arithmetic logic unit
 
+![8 bit ALU](/pics/logic/8-Bit-ALU-3.png?raw=true)
+
 Project to build an 8-bit arithmetic logic unit (ALU) consisting only of transistors. Further on, the construction of a transistor processor based on this ALU will follow.
 
 ## Input
