@@ -1151,6 +1151,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(560,120)" to="(560,180)"/>
     <wire from="(280,160)" to="(280,210)"/>
     <wire from="(660,700)" to="(660,760)"/>
+    <wire from="(350,70)" to="(350,120)"/>
     <wire from="(670,200)" to="(670,210)"/>
     <wire from="(450,370)" to="(510,370)"/>
     <wire from="(640,570)" to="(640,580)"/>
@@ -1774,6 +1775,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="north"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(350,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="label" val="C7"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(220,390)" name="Pin">
       <a name="facing" val="north"/>
