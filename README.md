@@ -12,7 +12,16 @@ The aim is to illustrate how computers calculate up to the execution of elementa
 
 ## Input
 
-The inputs of the arithmetic-logic unit are the two 8-bit wide data words ``A`` and ``B``, and 8 control lines, defined below.
+The inputs of the arithmetic-logic unit are the two 8-bit wide data words ``A`` and ``B``, and 8 control lines:
+
++ ``~A`` inverts word ``A``
++ ``~B`` inverts word ``B``
++ ``~C`` inhibit carry
++ ``~AND`` inhibit AND
++ ``Cin`` carry input (INC/SUB)
++ ``~X`` inverts output ``X``
++ ``RS`` logical right shift
++ ``LS`` logical left shift
 
 ## Functions
 
