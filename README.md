@@ -47,3 +47,12 @@ The output of the arithmetic-logic unit is the 8-bit wide data word ``X`` and th
 | Z    | Zero       | Indicates that the result of an arithmetic or logical operation (or a load) was zero. |
 | P    | Parity     | Indicates whether the number of set bits of the last result is even or odd (``Odd=1``). |
 | H    | Half-carry | Indicates that a bit carry was produced between the nibbles (4-bit halves of a byte operand) as a result of the last arithmetic operation. |
+
+### Magnitude comparator
+
+Part of the ALU is the _Magnitude comparator_. It is unaffected by arithmetic (or even shift) operations. It compares the input words ``A`` and ``B`` for equality and has two outputs that are included in the status register:
+
++ ``A=B`` Indicates when the entered words ``A`` and ``B`` are equal.
++ ``A>B`` Indicates when the entered word ``A`` is greather than ``B``.
+
+If both outputs of the status register are ``0``, then ``A<B`` applies. No separate data wire is provided for this.
