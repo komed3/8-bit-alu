@@ -13,3 +13,22 @@ The aim is to illustrate how computers calculate up to the execution of elementa
 ## Input
 
 The inputs of the arithmetic-logic unit are the two 8-bit wide data words ``A`` and ``B``, and 8 control lines, defined below.
+
+## Functions
+
+| LS | RS | ~X | Cin | ~AND | ~C | ~B | ~A | FNC   |
+|:--:|:--:|:--:|:---:|:----:|:--:|:--:|:--:|:-----:|
+| 0  | 0  | 0  | 0   | 0    | 0  | 0  | 0  | ADD   |
+| 0  | 0  | 0  | 0   | 0    | 0  | 0  | 1  | NOT A |
+| 0  | 0  | 0  | 0   | 0    | 0  | 1  | 0  | NOT B |
+| 0  | 0  | 0  | 0   | 0    | 1  | 0  | 0  | XOR   |
+| 0  | 0  | 0  | 0   | 1    | 0  | 0  | 0  | OR    |
+| 0  | 0  | 0  | 0   | 1    | 0  | 1  | 1  | NAND  |
+| 0  | 0  | 0  | 1   | 0    | 0  | 0  | 0  | INC   |
+| 0  | 0  | 0  | 1   | 0    | 0  | 1  | 0  | SUB   |
+| 0  | 0  | 1  | 0   | 0    | 0  | 0  | 0  | NOT X |
+| 0  | 0  | 1  | 0   | 0    | 1  | 0  | 0  | XNOR  |
+| 0  | 0  | 1  | 0   | 1    | 0  | 0  | 0  | NOR   |
+| 0  | 0  | 1  | 0   | 1    | 0  | 1  | 1  | AND   |
+| 0  | 1  | 0  | 0   | 0    | 0  | 0  | 0  | LSR   |
+| 1  | 0  | 0  | 0   | 0    | 0  | 0  | 0  | LSL   |
