@@ -32,3 +32,18 @@ The inputs of the arithmetic-logic unit are the two 8-bit wide data words ``A`` 
 | 0  | 0  | 1  | 0   | 1    | 0  | 1  | 1  | AND   |
 | 0  | 1  | 0  | 0   | 0    | 0  | 0  | 0  | LSR   |
 | 1  | 0  | 0  | 0   | 0    | 0  | 0  | 0  | LSL   |
+
+## Output
+
+The output of the arithmetic-logic unit is the 8-bit wide data word ``X`` and the status register consisting of another 8 bits.
+
+### Status register
+
+| Flag | Name       | Description |
+|:----:|------------|-------------|
+| C    | Carry      | Enables numbers larger than a single word to be added/subtracted by carrying a binary digit from a less significant word to the least significant bit of a more significant word as needed. |
+| V    | Overflow   | Indicates that the signed result of an operation is too large to fit in the register width using two's complement representation. |
+| S    | Sign       | Indicates that the result of a mathematical operation is negative. |
+| Z    | Zero       | Indicates that the result of an arithmetic or logical operation (or a load) was zero. |
+| P    | Parity     | Indicates whether the number of set bits of the last result is even or odd (``Odd=1``). |
+| H    | Half-carry | Indicates that a bit carry was produced between the nibbles (4-bit halves of a byte operand) as a result of the last arithmetic operation. |
