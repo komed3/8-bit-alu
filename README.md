@@ -25,6 +25,25 @@ The inputs of the arithmetic-logic unit are the two 8-bit wide data words ``A`` 
 
 ## Functions
 
+The arithmetic-logic unit includes the following instructions, which are defined in the coding table below with their respective control lines:
+
+### Arithmetic
+
++ addition (ADD)
++ subtraction (SUB)
++ increment (INC)
++ comparison (CMP)
+
+### Logic
+
++ negation (NOT)
++ conjunction (AND + NAND)
++ disjunction (OR + NOR)
++ contravalence (XOR + XNOR)
++ right and left shift (LSR/LSL)
+
+### Coding table
+
 | LS | RS | ~X | Cin | ~AND | ~C | ~B | ~A | FNC   |
 |:--:|:--:|:--:|:---:|:----:|:--:|:--:|:--:|:-----:|
 | 0  | 0  | 0  | 0   | 0    | 0  | 0  | 0  | ADD   |
